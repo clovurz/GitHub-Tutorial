@@ -14,6 +14,7 @@
 		52907BC92C25F032008E4CBB /* GitHub_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52907BC82C25F032008E4CBB /* GitHub_TutorialTests.swift */; };
 		52907BD32C25F032008E4CBB /* GitHub_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52907BD22C25F032008E4CBB /* GitHub_TutorialUITests.swift */; };
 		52907BD52C25F032008E4CBB /* GitHub_TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52907BD42C25F032008E4CBB /* GitHub_TutorialUITestsLaunchTests.swift */; };
+		52907CC42C2C5D44008E4CBB /* Home Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52907CC32C2C5D44008E4CBB /* Home Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		52907BCE2C25F032008E4CBB /* GitHub TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52907BD22C25F032008E4CBB /* GitHub_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_TutorialUITests.swift; sourceTree = "<group>"; };
 		52907BD42C25F032008E4CBB /* GitHub_TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52907CC32C2C5D44008E4CBB /* Home Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home Page.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				52907BB72C25F02F008E4CBB /* GitHub_TutorialApp.swift */,
 				52907BB92C25F02F008E4CBB /* ContentView.swift */,
+				52907CC32C2C5D44008E4CBB /* Home Page.swift */,
 				52907BBB2C25F031008E4CBB /* Assets.xcassets */,
 				52907BBD2C25F031008E4CBB /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				52907BBA2C25F02F008E4CBB /* ContentView.swift in Sources */,
 				52907BB82C25F02F008E4CBB /* GitHub_TutorialApp.swift in Sources */,
+				52907CC42C2C5D44008E4CBB /* Home Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

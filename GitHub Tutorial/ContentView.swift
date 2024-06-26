@@ -9,16 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hi, I'm Chloe!")
-        }
-        .padding()
+        
+            NavigationStack {
+                VStack {
+                    
+                    Text("Welcome to Konsent!")
+                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        .fontWeight(.heavy)
+//                    NavigationLink(destination: Home Page()) {
+                        Text("CCCCClick Here to Start Answering Questions!")
+                            .font(.headline)
+                    }
+                    .padding()
+                }
+                
+            }
+        
+        
     }
-}
+
 
 #Preview {
     ContentView()
 }
+
